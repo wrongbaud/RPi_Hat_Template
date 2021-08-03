@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6002)
-    (drawings 44)
+    (drawings 41)
     (tracks 74)
     (zones 0)
     (modules 12)
@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 Front signal hide)
+    (0 Front signal)
     (31 Back signal)
     (34 B.Paste user)
     (35 F.Paste user)
@@ -770,15 +770,6 @@
       (solder_mask_margin 1.725) (clearance 1.725))
   )
 
-  (gr_text "SPI IO Map\nSDO = IO10\nSDI = IO9\nSCLK = IO11\nCE0 = IO8" (at 157.48 99.06 90) (layer F.SilkS)
-    (effects (font (size 1.524 1.524) (thickness 0.3048)))
-  )
-  (gr_text "UART IO Map\nTXD = IO14\nRXD = IO15" (at 167.64 113.03 90) (layer F.SilkS)
-    (effects (font (size 1.524 1.524) (thickness 0.3048)))
-  )
-  (gr_text "I2C IO Map\nSDA = IO2\nSCL = IO3" (at 167.64 85.09 90) (layer F.SilkS)
-    (effects (font (size 1.524 1.524) (thickness 0.3048)))
-  )
   (gr_text "Target\nConnector" (at 146 113 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -791,7 +782,7 @@
   (gr_text SDI (at 134.62 116.84 90) (layer F.SilkS) (tstamp 6108A09A)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "SDO/SWDIO\n\n" (at 133.35 120.65 90) (layer F.SilkS) (tstamp 6108A097)
+  (gr_text "SDO/SDIO\n\n" (at 133.35 119.38 90) (layer F.SilkS) (tstamp 6108A097)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text RXD/TCK (at 129.54 119.38 90) (layer F.SilkS) (tstamp 6108A094)
